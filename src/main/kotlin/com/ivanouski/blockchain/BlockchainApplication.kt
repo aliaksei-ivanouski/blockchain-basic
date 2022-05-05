@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 
     Security.addProvider(BouncyCastleProvider())
 
+
     val userA = Wallet()
     val userB = Wallet()
     val lender = Wallet()
